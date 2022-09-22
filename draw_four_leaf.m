@@ -4,8 +4,9 @@ l2=5;
 
 for t=0:0.1:12*pi
   
-    x=4*cos(2*t)*cos(t);
-    y=4*cos(2*t)*sin(t);
+    x=(sin(2*t)+1/4*sin(6*t))*cos(t);
+    y=(sin(2*t)+1/4*sin(6*t))*sin(t);
+    
     
 
     c2=(x^2+y^2-l1^2-l2^2)/(2*l1*l2);
